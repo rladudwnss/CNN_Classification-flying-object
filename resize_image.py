@@ -6,21 +6,17 @@ width = 256
 height = 256
 
 size = width, height
-#train_path = "C:/Users/7igod/Desktop/dataset(2)/train/bird" #새 이미지 경로
-#train_path = "C:/Users/7igod/Desktop/dataset(2)/train/drone" #드론 이미지 경로
-train_path = "C:/Users/7igod/Desktop/dataset(2)/train/plane" #비행기 이미지 경로
 
-#train_modified_path = "C:/Users/7igod/Desktop/modified_dataset/train/bird" #수정 이미지 저장 경로
-#train_modified_path = "C:/Users/7igod/Desktop/modified_dataset/train/drone" #수정 이미지 저장 경로
-train_modified_path = "C:/Users/7igod/Desktop/modified_dataset/train/plane" #수정 이미지 저장 경로
+train_path = "C:~본인 환경 경로에 맞춰서 입력" #비행기 이미지 경로, 가져올 이미지(사이즈 변경)
 
-#val_path = "C:/Users/7igod/Desktop/dataset(2)/val/bird" #새 이미지 경로
-#val_path = "C:/Users/7igod/Desktop/dataset(2)/val/drone" #드론 이미지 경로
-val_path = "C:/Users/7igod/Desktop/dataset(2)/val/plane" #비행기 이미지 경로
 
-#val_modified_path = "C:/Users/7igod/Desktop/modified_dataset/val/bird" #수정 이미지 저장 경로
-#val_modified_path = "C:/Users/7igod/Desktop/modified_dataset/val/drone" #수정 이미지 저장 경로
-val_modified_path = "C:/Users/7igod/Desktop/modified_dataset/val/plane" #수정 이미지 저장 경로
+train_modified_path = "C:~본인 환경 경로에 맞춰서 입력" #수정 이미지 저장 경로, 가져올 이미지(사이즈 변경)
+
+
+val_path = "C:~본인 환경 경로에 맞춰서 입력" #비행기 이미지 경로(사이즈 변경)
+
+
+val_modified_path = "C:~본인 환경 경로에 맞춰서 입력" #수정 이미지 저장 경로
 
 os.chdir(val_path)
 
